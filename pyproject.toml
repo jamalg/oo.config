@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "oo.config"
+version = "0.1.0"
+description = "Helpers for environment variable config"
+authors = ["Jamal Gourinda <jamal.gourinda.pro@gmail.com>"]
+license = "MIT"
+packages = [{ include = "oo" }]
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
